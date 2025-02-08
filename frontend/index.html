@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing Software</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include QR Code library -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ticketing Software</h1>
+        <!-- Ticket Purchase Form -->
+        <form id="purchaseForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="event" placeholder="Event Name" required>
+            <button type="submit">Purchase Ticket</button>
+        </form>
+
+        <!-- Digital Ticket Display -->
+        <div class="ticket-container">
+            <h2>Your Digital Ticket</h2>
+            <img id="ticketQR" src="" alt="QR Code">
+            <p id="ticketDetails"></p>
+        </div>
+
+        <!-- Ticket Validation System -->
+        <div class="validation-system">
+            <h2>Validate Ticket</h2>
+            <input type="text" id="validateTicketCode" placeholder="Enter Ticket Code">
+            <button id="validateButton">Scan & Validate</button>
+            <p id="validationResult"></p>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
