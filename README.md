@@ -61,7 +61,7 @@ ticketing-software/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/ticketing-software.git
+   git clone https://github.com/Imonisweet1/ticket-app.git
    cd ticketing-software/frontend
    ```
 2. **Open index.html**<br>
