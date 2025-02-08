@@ -110,8 +110,8 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License . Feel free to use, modify, and distribute the software as per the terms of the license
 
 ## Contact
-For any questions or feedback, please contact 
+For any questions or feedback, please contact:   [GitHub](https://github.com/imonisweet1)
 ## Links
 - [Live Demo](https://example.com)
 - [Documentation](https://docs.example.com)
-- [GitHub Repository](https://github.com/username/my-project)
+- [GitHub Repository](https://github.com/imonisweet1/ticket-app)
